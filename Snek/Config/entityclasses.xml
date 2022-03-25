@@ -1,0 +1,5 @@
+<Snek>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='MoveSpeed']/@value">0.16</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='MoveSpeedAggro']/@value">.4, .4</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='MoveSpeedPanic']/@value">0.2</set>
+</Snek>
