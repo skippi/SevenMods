@@ -1,0 +1,3 @@
+<EverythingLeaps>
+	<set xpath="/lootcontainers/lootcontainer[@id='70']/item/@group">groupZpackStrong</set>
+</EverythingLeaps>
