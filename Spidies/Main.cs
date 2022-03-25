@@ -127,7 +127,7 @@ public class Main : IModApi
             {
                 var spider = (EntityAlive)EntityFactory.CreateEntity(EntityClass.FromString("zombieSpider"), entity.GetPosition(), new Vector3(0f, world.GetGameRandom().RandomFloat * 360f, 0f));
                 world.SpawnEntityInWorld(spider);
-                spider.SetAttackTarget((EntityAlive)killer, 60000);
+                spider.SetAttackTarget((EntityAlive)killer, 999999999);
                 spider.SetSpawnerSource(EnumSpawnerSource.Unknown);
                 spider.bIsChunkObserver = false;
             }

@@ -127,7 +127,7 @@ public class Main : IModApi
             {
                 var snake = (EntityAlive)EntityFactory.CreateEntity(EntityClass.FromString("animalSnake"), entity.GetPosition(), new Vector3(0f, world.GetGameRandom().RandomFloat * 360f, 0f));
                 world.SpawnEntityInWorld(snake);
-                snake.SetAttackTarget((EntityAlive)killer, 60000);
+                snake.SetAttackTarget((EntityAlive)killer, 999999999);
                 snake.SetSpawnerSource(EnumSpawnerSource.Unknown);
                 snake.bIsChunkObserver = false;
             }
