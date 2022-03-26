@@ -1,0 +1,13 @@
+<FasterGame>
+	<append xpath="/lootcontainers/lootcontainer[@name='cars']">
+		<item group="groupAutomotive" prob="0.7"/>
+		<item group="twitch_pistol" prob="0.2"/>
+		<item group="twitch_tier0shotgun" prob="0.2"/>
+		<item group="airdropfood" prob="0.3"/>
+		<item group="twitch_ammo0" prob="0.3"/>
+		<item group="twitch_bicycle" prob="0.3"/>
+		<item name="armorMilitaryVest" prob="0.2"/>
+		<item name="resourceMilitaryFiber" count="1,5" prob="0.04"/>
+		<item name="armorMiningHelmet" prob="0.035"/>
+	</append>
+</FasterGame>
