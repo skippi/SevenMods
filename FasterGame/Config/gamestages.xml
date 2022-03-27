@@ -1,0 +1,4 @@
+<FasterGame>
+	<set xpath="/gamestages/config/@daysAliveChangeWhenKilled">0</set>
+	<set xpath="/gamestages/config/@difficultyBonus">2.4</set>
+</FasterGame>
